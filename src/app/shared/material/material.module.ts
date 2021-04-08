@@ -12,6 +12,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [],
@@ -27,6 +28,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatIconModule,
     MatDialogModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   exports: [
     MatSliderModule,
@@ -39,6 +41,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatIconModule,
     MatDialogModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
 })
 export class MaterialModule {}
