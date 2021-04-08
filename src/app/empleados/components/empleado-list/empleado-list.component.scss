@@ -1,0 +1,19 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  .pointer-edit,
+  .pointer-delete {
+    margin: 8px;
+    cursor: pointer;
+  }
+  .pointer-edit {
+    color: green;
+  }
+  .pointer-delete {
+    color: red;
+  }
+}
